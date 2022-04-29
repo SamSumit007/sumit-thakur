@@ -15,7 +15,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={6} className="project-card" >
             <ProjectCards
-              imgPath="/images/supermarket.png"
+              imgPath="/images/blinkit.jpeg"
               title="blinkit"
               description="Blinkit is an Indian instant delivery service.to order groceries and essentials online. Blinkit's employees then secure the items from their warehouse and deliver the items to the consumer within 10 minutes "
               tech="Tech-Stacks"
