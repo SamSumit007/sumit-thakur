@@ -17,7 +17,7 @@ function Projects() {
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/travelocity.jpeg"
-              title="Unsplash"
+              title="Travelocity"
               description="This is the clone of the Travelocity website. Travelocity is an online travel agency. From this website, users can book a hotel room, flights, cars, etc. across the world.."
               tech="Tech-Stacks"
               techD="React js | Redux | Javascript | HTML | Css "
