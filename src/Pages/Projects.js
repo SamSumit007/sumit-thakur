@@ -13,7 +13,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={6} className="project-card" >
+        
+          <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/travelocity.jpeg"
+              title="Unsplash"
+              description="This is the clone of the Travelocity website. Travelocity is an online travel agency. From this website, users can book a hotel room, flights, cars, etc. across the world.."
+              tech="Tech-Stacks"
+              techD="React js | Redux | Javascript | HTML | Css "
+              link="https://travelocity.vercel.app/"
+              a="https://github.com/SamSumit007/travelocity"
+            />
+          </Col>
+          <Col md={6} className="project-card" >
             <ProjectCards
               imgPath="/images/blinkit.jpeg"
               title="blinkit"
@@ -24,18 +36,6 @@ function Projects() {
               a="https://github.com/Imaryan08/blinkit"
             />
           </Col>
-          <Col md={6} className="project-card">
-            <ProjectCards
-              imgPath="/images/unsplash.jpeg"
-              title="Unsplash"
-              description="Clone of a Website called Unsplash which lets its user to download some free and premium images."
-              tech="Tech-Stacks"
-              techD="Html | Javascript | Css "
-              link="https://sumit-unsplash-ssprm902.netlify.app/"
-              a="https://github.com/mayank8887/Construct_Unsplash"
-            />
-          </Col>
-
          
 
         </Row>
