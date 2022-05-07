@@ -36,7 +36,17 @@ function Projects() {
               a="https://github.com/Imaryan08/blinkit"
             />
           </Col>
-         
+          <Col md={6} className="project-card" >
+            <ProjectCards
+              imgPath="/images/weather.jpeg"
+              title="Weather-App"
+              description="This is a small app here you can check daily weather updates of the city of your choice. "
+              tech="Tech-Stacks"
+              techD="Html | Javascript | Css  "
+              link="https://dailyweatherupdates.netlify.app/"
+              a="https://github.com/SamSumit007/WeatherApp"
+            />
+          </Col>
 
         </Row>
       </Container>
