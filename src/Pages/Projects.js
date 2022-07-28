@@ -13,7 +13,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        
+        <Col md={6} className="project-card">
+            <ProjectCards
+              imgPath="/images/myntra.jpeg"
+              title="Myntra"
+              description="This is the clone of the Myntra website. Myntra is a Online Shopping Site for Fashion and Lifestyle in India..."
+              tech="Tech-Stacks"
+              techD="React js | Redux | Javascript | HTML | Css "
+              link="https://myntra-one.vercel.app/"
+              a="https://github.com/SamSumit007/Myntra"
+            />
+          </Col>
           <Col md={6} className="project-card">
             <ProjectCards
               imgPath="/images/travelocity.jpeg"
